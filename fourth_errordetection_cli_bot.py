@@ -1,4 +1,4 @@
-#create function for except all mistakes and give information what's wrong
+#create function for except all mistakes and gives information what's wrong
 def input_error(func):
     def inner(*args, **kwargs):
         try:
